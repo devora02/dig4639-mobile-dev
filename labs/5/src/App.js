@@ -6,9 +6,11 @@ import "./index.css";
  class App extends React.Component {
   render() {
     return (
+      <div className="card">
       <View>
         <Weather />
       </View>
+      </div>
     );
   }
 }
