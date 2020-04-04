@@ -1,18 +1,23 @@
 import React from 'react';
-import {View, Text} from "react-native";
-import Weather from "/components/Weather";
-import "./index.css";
+import './App.css';
+import CardList from './component/CardList/index.js'
 
- class App extends React.Component {
-  render() {
-    return (
-      <div className="card">
-      <View>
-        <Weather />
-      </View>
-      </div>
-    );
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {content:"", list: []}
+  }
+  
+
+render() {
+  return (
+        <CardList 
+          data={this.state.list}
+          >
+          </CardList>
+    )
   }
 }
+
 
 export default App;

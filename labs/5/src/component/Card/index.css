@@ -1,0 +1,19 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(240, 13, 13, 0.2);
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    color: black;
+  }
+  
+  .close {
+    font-size: 1.5em;
+    float: right;
+    cursor: pointer;
+  }
+
+  p {
+    font-family: Verdana, sans-serif;
+  }
