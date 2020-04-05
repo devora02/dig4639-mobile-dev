@@ -70,7 +70,7 @@ class Title extends React.Component {
       }
     start() {
       console.log("Starting!")
-      this.setState({titleText: "NBA Quiz Starting", counter: 0})
+      this.setState({titleText: "NBA Quiz Starting!", counter: 0})
       this.timer = setInterval(() => this.countdown(), 1000)
     }
     render() {
@@ -106,11 +106,14 @@ class Title extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#008b8b',
     alignItems: 'center',
     justifyContent: 'center',
   },
   Score: {
     color: "red",
+  },
+  Text: {
+    color: "white",
   }
 });
