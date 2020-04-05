@@ -5,12 +5,9 @@ class Card extends React.Component {
     render() {
         return (
         <div className = "card">
-            <span className="close"
-            onClick={() => this.props.pressMe()} 
-        >&times;</span>
-            <p><strong>{this.props.name}</strong></p>
-        <p><strong>{this.props.temperature}</strong>
-        <strong>{this.props.temperatureUnit}</strong></p>
+            <span className="close" onClick={() => this.props.pressMe()}>&times;</span>
+            <p>{this.props.name}</p>
+        <p>{this.props.temperature}{this.props.temperatureUnit}</p>
         <p>{this.props.detailedForecast}</p>
         </div>
         )

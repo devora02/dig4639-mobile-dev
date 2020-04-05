@@ -40,14 +40,8 @@ class CardList extends React.Component {
         name={v.name}
         temperature={v.temperature}
         temperatureUnit={v.temperatureUnit}
-        detailedForecast={v.detailedForecast}
-
-        >
-
-
-            
-  
-          </Card>
+        detailedForecast={v.detailedForecast}>
+        </Card>
         ) 
       )
 
