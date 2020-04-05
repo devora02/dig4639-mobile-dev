@@ -110,4 +110,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  Score: {
+    color: "red",
+  }
 });
