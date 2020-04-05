@@ -1,0 +1,72 @@
+[
+    {
+      "question": "Which of these teams most recently won an NBA Championship?",
+      "chooseAnswer":
+      [
+        {"text":"Dallas Maverick",
+        "correct":false },
+        {"text":"San Antonio Spurs",
+          "correct":false},
+        {"text":"Los Angeles Clippers",
+          "correct":false},
+        {"text":"Toronto Raptors",
+          "correct": true}
+      ]
+    },
+    {
+        "question": "What team does Kawhi Leonard play for?",
+        "chooseAnswer":
+        [
+          {"text":"Los Angeles Lakers",
+          "correct":true },
+          {"text":"Boston Celtics",
+            "correct":false},
+          {"text":"Los Angles Clippers",
+            "correct":true},
+          {"text":"Milwaukee Bucks",
+            "correct": false}
+        ]
+      },
+      {
+        "question": "How many points did Kobe Bryant score in his final NBA game?",
+        "chooseAnswer":
+        [
+          {"text":"32",
+          "correct":false },
+          {"text":"50",
+            "correct":false},
+          {"text":"60",
+            "correct":true},
+          {"text":"65",
+            "correct": false}
+        ]
+      }, 
+      {
+        "question": "Who won the 2010 NBA Championship?",
+        "chooseAnswer":
+        [
+          {"text":"Boston Celtics",
+          "correct":false },
+          {"text":"Los Angeles Lakers",
+            "correct":true},
+          {"text":"Miami Heat",
+            "correct":false},
+          {"text":"Detroit Pistons",
+            "correct": false}
+        ]
+      },
+      {
+        "question": "How many NBA Champions does Michael Jordan have?",
+        "chooseAnswer":
+        [
+          {"text":"1",
+          "correct":false },
+          {"text":"8",
+            "correct":false},
+          {"text":"3",
+            "correct":false},
+          {"text":"6",
+            "correct": true}
+        ]
+      }
+  ]
