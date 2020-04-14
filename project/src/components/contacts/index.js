@@ -7,8 +7,8 @@ const ContactList = ({ contacts }) => {
         <div className="contacts">
            
           <h2>Contacts</h2>
-            {contacts.map((contact) => (
-                <div className="card">
+            {contacts.map((contact, i) => (
+                <div key={i} className="card">
                     <div className="cardContent">
                         <p className="cardHeader">{contact.name}</p>
                         <p className="cardPara">{contact.number}</p>

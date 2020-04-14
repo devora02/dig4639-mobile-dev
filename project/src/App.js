@@ -43,7 +43,13 @@ class App extends React.Component {
         number: number
       })
     })
-      .then(this.addContact())
+      .then(result => result.json())
+      .then(body => {
+        // {added: {name:"name",number:"number" }
+        console.log(body)
+        console.log(body.added) // The contact added that should be added to the state "contact" array
+
+      })
       .catch(err => {
         console.log(err);
       });

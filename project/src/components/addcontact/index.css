@@ -1,11 +1,6 @@
+body {
+   text-align: center;
+}
 .formContainer{
-   display: grid; 
-   grid-template-columns: 20% 1fr 1fr 1fr 20%;
-}
-.inputItems{
-   grid-column: 3/4;
-}
-h1{
-    font-size: 20px;
-    text-align: center;
+   display: inline-block;
 }
