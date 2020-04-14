@@ -45,6 +45,8 @@ class App extends React.Component {
     })
       .then(result => result.json())
       .then(body => {
+
+        this.setState({added:{"name": name, "number": number}});
         // {added: {name:"name",number:"number" }
         console.log(body)
         console.log(body.added) // The contact added that should be added to the state "contact" array
