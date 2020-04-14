@@ -10,14 +10,15 @@ class AddContact extends React.Component {
     render() {
         return (
             <div>
-            <h1>Create a new contact!</h1>
             <form className="formContainer" method="POST"> 
+            <h1>Create a new contact!</h1>
                 <div className="inputItems">
-                <label htmlFor="nameInput">Name:</label>
+                <label htmlFor="nameInput">Name:</label><br/>
                 <input type="text" id="nameInput" name="nameInput">
                 </input><br/>
-                <label htmlFor="numberInput">Number:</label>
-                <input type="text" id="numberInput" name="numberInput"></input>
+                <label htmlFor="numberInput">Number:</label><br/>
+                <input type="text" id="numberInput" name="numberInput"></input><br/>
+
                 <button type="submit" onClick={this.props.createContact}>Create Contact</button>
                 </div>
             </form>

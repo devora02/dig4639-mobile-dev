@@ -96,9 +96,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="contactApp">
+        <AddContact createContact={this.addContact}/>
         <Accprofile profile={this.state.profile} />
         <ContactList contacts={this.state.contacts} />
-        <AddContact createContact={this.addContact}/>
       </div>
     );
   }
