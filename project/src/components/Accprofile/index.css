@@ -1,0 +1,16 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 40%;
+    margin: 5% auto;
+    text-align: center;
+    padding: 1em;
+    line-height: 2em;
+  }
+
+  .cardHeader{
+      text-align: center;
+      font-size: 30px;
+  }
+  .cardPara{
+      font-size: 24px;
+  }
