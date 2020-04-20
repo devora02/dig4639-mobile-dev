@@ -93,11 +93,27 @@ class App extends React.Component {
     .catch(console.log("Cannot get contact list!"))
   }
 
+  deleteContact (event) {
+    window.fetch("http://plato.mrl.ai:8080/contacts/remove", {
+      "method": "POST",
+      "headers": {
+        "API": "devora"
+      }
+    })
+    var newContacts = this.state.contacts.filter((contacts) => {
+      return contacts !== event
+    });
+
+    this.setState({contacts: newContacts});
+  }
+
   render() {
     return (
       <div className="contactApp">
         <Accprofile profile={this.state.profile} />
-        <ContactList contacts={this.state.contacts} />
+        <ContactList contacts={this.state.contacts} 
+        deleteContact={this.deleteContact.bind(this)}
+        />
         <AddContact createContact={this.addContact}/>
       </div>
     );
